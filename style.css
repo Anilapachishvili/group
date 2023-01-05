@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+.background{
+    background-image: url(./images/photo-1552319704-41c50c38c26e.jfif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.absolute{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    font-size: 30px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+.wrapper li {
+    font-size: 20px;
+    margin-right: 40px;
+}
+.wrapper li::after{
+    content:"";
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 15px;
+    align-items: center;
+}
+.img{
+    top: 23px;
+    left: 27px;
+    width: 27px;
+    height: 27px;
+}
+h1{
+   margin-left: 90px;
+   margin-top: 60px;
+   font-size: 15px;
+   
+   
+}
+.text{
+    position: relative;
+    width: 1001px;
+    height: 194px;;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 90px;
+    letter-spacing: 1px;
+    color: #434343;
+    
+}
+.box{
+
+    background-color: white;
+    width: 75%;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.color{
+    background-color:  #f7f7f7;
+}
+.third-text{
+    margin-top: 50px;
+    color: #434343;;
+}
+.box{
+    font-size: 25px;
+    color: #434343;
+}
+.fir{
+    font-size: 35px;
+    margin-top: 20px;
+    
+}
+.sec{
+    position: relative;
+    font-size: 25px;
+}
+.fourth-text{
+    margin-left: 90px;
+    font-size: 25px;
+    margin-top: 30px;
+    padding-top: 20px;
+    color: #434343;
+    width: 1001px;
+height: 93px;
+}
+
+.monter{
+    margin-right: 100px;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+img{
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    position: relative;
+    background-position: center;
+    padding-top: 60px;
+    width: 1260px;
+    height: 556px;
+    
+}
+.pour{
+    font-size: 25px;
+}
+
+.fifth-text{
+    width: 1001px;
+    height: 93px;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.sixth-text{
+    width: 999px;
+    height: 194px;
+    margin-left: 90px;
+    font-size: 20px;
+}
