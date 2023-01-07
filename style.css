@@ -10,6 +10,7 @@
     background-size: cover;
     position: relative;
     background-position: center;
+    background-color: #F7F7F7;
 }
 .absolute{
     color: white;
@@ -19,7 +20,7 @@
     font-size: 30px;
     
 }
-.flex{
+.space-between{
     display: flex;
     justify-content: right;
     color: white;
@@ -47,27 +48,25 @@
 h1{
    margin-left: 90px;
    margin-top: 60px;
-   font-size: 15px;
-   
-   
+ 
 }
 .text{
     position: relative;
     width: 1001px;
     height: 194px;;
     font-size: 25px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 90px;
     letter-spacing: 1px;
     color: #434343;
     
 }
-.box{
+.main-text{
 
     background-color: white;
     width: 75%;
     margin-left: 90px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .color{
     background-color:  #f7f7f7;
@@ -76,16 +75,17 @@ h1{
     margin-top: 50px;
     color: #434343;;
 }
-.box{
+.main-text{
     font-size: 25px;
     color: #434343;
+    letter-spacing: -1px;
 }
-.fir{
+.up{
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 90px;
     
 }
-.sec{
+.secondh1{
     position: relative;
     font-size: 25px;
 }
@@ -96,13 +96,14 @@ h1{
     padding-top: 20px;
     color: #434343;
     width: 1001px;
-height: 93px;
+    height: 93px;
+    letter-spacing: -1px;
 }
 
-.monter{
+.thirdh1{
     margin-right: 100px;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 80px;
     padding-top: 30px;
 }
 img{
@@ -110,7 +111,7 @@ img{
     margin-left: 90px;
     position: relative;
     background-position: center;
-    padding-top: 60px;
+    padding-top: 100px;
     width: 1260px;
     height: 556px;
     
@@ -120,15 +121,162 @@ img{
 }
 
 .fifth-text{
+    color: #434343;
     width: 1001px;
     height: 93px;
     margin-left: 90px;
     font-size: 20px;
     margin-top: 40px;
+    letter-spacing: 1px;
 }
 .sixth-text{
+    color: #434343;
     width: 999px;
     height: 194px;
     margin-left: 90px;
     font-size: 20px;
+    margin-top: 50px;
+    letter-spacing: 1px;
 }
+.image{
+    width: 1260px;
+    height: 787px;
+    left: 91px;
+    top: 20px;
+}
+.grey {
+    position: relative;
+    width: 436px;
+    height: 126px;
+    color: grey;
+    margin-left: 90px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+..paragraph {
+    padding-top: 850px;
+    padding-left: 91px;
+}
+.box {
+    position: absolute;
+    top: 900px;
+    left: 650px;
+    width: 436px;
+    height: 126px;
+    color: grey;
+}
+.blue-box {
+    color: white;
+    width: 1510px;
+    height: 474px;
+    background-color: #0865DE;
+    padding-left: 91px;
+    padding-top: 186px;
+}
+.seventh-text {
+    color: #002D69;
+    font-size: 20px;
+    width: 1001px;
+    height: 168px;
+    margin-top: 20px;
+}
+h2 {
+    color: #F7F7F7;
+    width: 210px;
+    height: 36px;
+}
+.immg {
+    height: 220px;
+    width: 200px;
+}
+.div {
+    position: relative;
+    width: 210px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 70px;
+}
+.gray {
+    color: gray;
+}
+
+h3 {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.container {
+    position: relative;
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+
+.item {
+   
+    margin: 0 10px;
+}
+.projets{
+    margin-top: 40px;
+    margin-left: 90px;
+    
+}
+.orange {
+    position: relative;
+    width: 180px;
+    height: 40px;
+    background-color: orange;
+    margin-left: 616px;
+}
+
+.white {
+    color: #F7F7F7;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.information {
+    position: relative;
+    max-width: 1080px;
+    width: 100%;
+    margin-top: 1200px;
+    display: flex;
+    justify-content: space-between;
+    width: 927px;
+    height: 422px;
+    margin-left: 200px;
+    
+}
+.circle {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    border: 8px solid;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+    
+.last {
+    width: 352px;
+    height: 32px;
+}
+    
+.last-info {
+    position: relative;
+    width: 280px;
+    height: 12px;
+    inline-size: fit-content;
+    margin-left: 1000px;
+    margin-bottom: 100px;
+}
+    
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
